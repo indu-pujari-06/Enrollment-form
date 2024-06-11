@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color:rgb(22, 207, 192);
+    color: rgb(21, 10, 10);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.container .form{
+    width: 50%;
+    margin-top: 30px;
+}
+
+#name ,#email,
+#website ,#url{
+    width: 335px;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 17px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 8.6vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 9vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.website {
+    display: flex;
+    align-items: center;
+    gap: 7.4vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap:7.7vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    gap: 8.5vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    gap: 9vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.button{
+    gap: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: rgb(51, 153, 51);
+    font-weight: 400;
+    font-size:15px;
+}
+
+#reset{
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: rgb(214, 19, 19);
+    font-weight: 400;
+    font-size:15px;
+}
+
+.op-box {
+    width: 50%;
+
+}
+
+.output {
+    padding: 45px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid red;
+}
+
+.output .cardContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
+    height: 73vh;
+    margin: auto;
+}
+
+.output .card {
+    height: auto;
+    display:grid;
+    background-color: rgba(128, 128, 128, 0.132); 
+    border-radius: 2px;
+    margin: 10px 0;
+    font-size: larger;
+    gap: 10px;
+}
+
+.output .card a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.heading2{
+    color: rgb(189, 40, 40);
+}
+
+
+
+
